@@ -1,1 +1,2 @@
 Some text in here.
+A new second line.
