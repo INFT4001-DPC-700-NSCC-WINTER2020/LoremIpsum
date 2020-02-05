@@ -7,6 +7,10 @@ import { RouterModule } from '@angular/router';
       {
         path: 'points',
         loadChildren: () => import('./points/points.module').then(m => m.TwentyOnePointsPointsModule)
+      },
+      {
+        path: 'preferences',
+        loadChildren: () => import('./preferences/preferences.module').then(m => m.TwentyOnePointsPreferencesModule)
       }
       /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
     ])
