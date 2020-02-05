@@ -11,6 +11,10 @@ import { RouterModule } from '@angular/router';
       {
         path: 'preferences',
         loadChildren: () => import('./preferences/preferences.module').then(m => m.TwentyOnePointsPreferencesModule)
+      },
+      {
+        path: 'weight',
+        loadChildren: () => import('./weight/weight.module').then(m => m.TwentyOnePointsWeightModule)
       }
       /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
     ])
