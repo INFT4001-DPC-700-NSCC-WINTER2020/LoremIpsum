@@ -15,6 +15,10 @@ import { RouterModule } from '@angular/router';
       {
         path: 'weight',
         loadChildren: () => import('./weight/weight.module').then(m => m.TwentyOnePointsWeightModule)
+      },
+      {
+        path: 'blood-pressure',
+        loadChildren: () => import('./blood-pressure/blood-pressure.module').then(m => m.TwentyOnePointsBloodPressureModule)
       }
       /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
     ])
